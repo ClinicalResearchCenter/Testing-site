@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Paid Clinical Trials</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            background: linear-gradient(135deg, #d4e9f9, #f3f6fb);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        header {
+            background: #1f78b4;
+            width: 100%;
+            padding: 20px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 2.8rem;
+            font-weight: bold;
+        }
+
+        .apply-now {
+            margin: 20px 0;
+            padding: 15px 35px;
+            background: #ff6363;
+            color: #fff;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+            transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+            animation: bounce 1.5s infinite, glow 1.5s infinite alternate;
+        }
+
+        /* Bouncing animation */
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        /* Glowing animation */
+        @keyframes glow {
+            0% {
+                box-shadow: 0 0 5px #ff6363, 0 0 10px #ff6363, 0 0 15px #ff6363;
+            }
+            100% {
+                box-shadow: 0 0 10px #ff6363, 0 0 15px #ff6363, 0 0 20px #ff6363;
+            }
+        }
+
+        section {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            color: #1f78b4;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #f3f6fb;
+            padding-bottom: 5px;
+        }
+
+        section p, section ul {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        section ul li {
+            margin-left: 20px;
+            list-style-type: disc;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 15px;
+            background: #1f78b4;
+            color: #fff;
+            text-align: center;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: #ff6363;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .review-board {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        .review-board h3 {
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+            color: #1f78b4;
+        }
+
+        .review-board p {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .review-board .review {
+            margin-bottom: 15px;
+        }
+
+        .bmi-calculator {
+            margin-top: 40px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .bmi-calculator h3 {
+            font-size: 1.6rem;
+            color: #1f78b4;
+            margin-bottom: 20px;
+        }
+
+        .bmi-calculator input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1.1rem;
+        }
+
+        .bmi-calculator button {
+            padding: 12px;
+            background: #ff6363;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .bmi-calculator button:hover {
+            background-color: #e25757;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Join Our Paid Clinical Trials</h1>
+    </header>
+
+    <!-- Apply Now Button -->
+    <a href="questionnaire.html" class="apply-now sp_popup_3ac17892-36f9-49da-affa-f142234a7cd9">Apply Now</a>
+
+    <section>
+        <h2>Why Join?</h2>
+        <p>We value your contribution to advancing medical research. As a participant, you will receive:</p>
+        <ul>
+            <li><strong>Compensation:</strong> Generous payments for your time and participation.</li>
+            <li><strong>Referral Bonuses:</strong> Invite friends to participate and earn extra rewards.</li>
+            <li><strong>Access to Cutting-Edge Treatments:</strong> Be among the first to try new therapies.</li>
+        </ul>
+    </section>
+
+    <!-- BMI Calculator placed under the Why Join section -->
+    <div class="bmi-calculator">
+        <h3>BMI Calculator for Obesity Trial</h3>
+        <p>Calculate your Body Mass Index (BMI) to see if you qualify for our Obesity Trial.</p>
+        <input type="number" id="weight" placeholder="Enter weight (lbs)" required>
+        <input type="number" id="feet" placeholder="Enter height (feet)" required>
+        <input type="number" id="inches" placeholder="Enter height (inches)" required>
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <p id="bmi-result"></p>
+    </div>
+
+    <section>
+        <h2>Frequently Asked Questions</h2>
+        <p><strong>What is a clinical trial?</strong> Clinical trials are research studies conducted to evaluate medical, surgical, or behavioral interventions.</p>
+        <p><strong>Who can participate?</strong> Eligibility varies by study. Applicants must complete a qualification questionnaire to determine if they are eligible.</p>
+        <p><strong>What are the benefits?</strong> Participants receive compensation, early access to treatments, and the chance to contribute to medical advancements.</p>
+    </section>
+
+    <section>
+        <h2>Previous Research Studies</h2>
+        <p>Our past studies include:</p>
+        <ul>
+            <li>Study on Vaccination Efficiency</li>
+            <li>Research on Norovirus Gastroenteritis</li>
+            <li>Advances in Cancer Treatments</li>
+        </ul>
+        <p>For more details, visit <a href="https://floridacrc.com/" target="_blank">Florida CRC</a>.</p>
+    </section>
+
+    <section>
+        <h2>Become a Private Recruiter</h2>
+        <p>Do you want to make extra cash by becoming a recruiter? If you know anyone who would qualify for our studies, you can refer them to us. For every referral that enrolls, you can earn a bonus ranging from $20 to $100, depending on the study.</p>
+        <p>To refer someone, please call us at <strong>954-932-0843</strong> and specify the study.</p>
+    </section>
+
+    <section>
+        <h2>Our Locations</h2>
+        <p>Visit us at one of our convenient locations:</p>
+        <ul>
+            <li><strong>Pompano Beach Office:</strong> 550 SW 3rd St, Pompano Beach, FL 33060, US</li>
+            <li><strong>Boynton Beach Office:</strong> 709 S Federal Hwy, Boynton Beach, FL 33435, USA</li>
+        </ul>
+    </section>
+
+    <!-- Review Board -->
+    <div class="review-board">
+        <h3>What Our Participants Say</h3>
+        <div class="review">
+            <p><strong>John D.:</strong> "I had a wonderful experience. The staff was professional, and I felt confident knowing that I was contributing to valuable research. Plus, the compensation was great!"</p>
+        </div>
+        <div class="review">
+            <p><strong>Sarah W.:</strong> "Being part of a clinical trial was an eye-opening experience. I felt safe, well-informed, and appreciated the timely payments. Highly recommend!"</p>
+        </div>
+        <div class="review">
+            <p><strong>Emily R.:</strong> "I referred a friend, and they enrolled in a study. I got a referral bonus and was happy to help advance science. Great opportunity!"</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Clinical Trials. All rights reserved.</p>
+    </footer>
+
+    <!-- The script for chat widget or popup integration -->
+    <script async src="https://static.sppopups.com/assets/loader.js" data-chats-widget-id="deecede3-037c-4a37-b912-198ac4c58223"></script>
+
+    <script>
+        function calculateBMI() {
+            var weight = parseFloat(document.getElementById('weight').value);
+            var feet = parseFloat(document.getElementById('feet').value);
+            var inches = parseFloat(document.getElementById('inches').value);
+
+            if (!weight || !feet || !inches) {
+                alert("Please enter valid weight and height values.");
+                return;
+            }
+
+            var heightInInches = (feet * 12) + inches; // Convert height to inches
+            var heightInMeters = heightInInches * 0.0254; // Convert inches to meters
+            var bmi = (weight * 0.453592) / (heightInMeters * heightInMeters); // Convert weight to kg and calculate BMI
+            document.getElementById('bmi-result').textContent = "Your BMI is: " + bmi.toFixed(2);
+        }
+    </script>
+</body>
+</html>
